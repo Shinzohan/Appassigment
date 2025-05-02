@@ -213,7 +213,7 @@ const Authlogin = ({ type }: { type: FormType }) => {
                 {...field}
                 label="Email Address"
                 type="email"
-                placeholder="john@example.com"
+                placeholder="shinzo@example.com"
                 error={!!fieldState.error}
                 helperText={fieldState.error?.message}
                 fullWidth
@@ -327,7 +327,7 @@ const Authlogin = ({ type }: { type: FormType }) => {
         open={snackbar.open}
         autoHideDuration={6000}
         onClose={handleCloseSnackbar}
-        anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
       >
         <Alert
           severity={snackbar.severity}
